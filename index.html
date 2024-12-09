@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long-Term Effects of Trauma on Educational Journey</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: url('https://mind.family/wp-content/uploads/2023/10/What-Is-Childhood-Trauma-Signs-of-Lingering-Childhood-Hurt.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        nav {
+            background: #004c97;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background: #003366;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            background: #004c97;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #003366;
+        }
+        footer {
+            background: #004c97;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .quiz {
+            margin: 20px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 5px solid #004c97;
+            border-radius: 8px;
+        }
+    </style>
+    <script>
+        function showQuizAnswer() {
+            const answer = document.getElementById('quiz-answer');
+            answer.style.display = 'block';
+        }
+
+        function showMoreInfo(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.style.display = section.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Long-Term Effects of Trauma on Educational Journey</h1>
+        <p>Understanding the impact of trauma and supporting students for a brighter future</p>
+    </header>
+
+    <nav>
+        <a href="#what-is-trauma">What is Trauma?</a>
+        <a href="#effects">Effects on Education</a>
+        <a href="#support">Support Strategies</a>
+        <a href="#quiz">Interactive Quiz</a>
+    </nav>
+
+    <div class="container">
+        <section id="what-is-trauma">
+            <h2>What is Trauma?</h2>
+            <p>
+                Trauma is a deeply distressing experience that leaves lasting impacts on an individual's emotional,
+                physical, and cognitive well-being. This may result from abuse, neglect, violence, or loss.
+            </p>
+            <p>Did you know? Studies show that more than 60% of adults report having experienced at least one traumatic event in their childhood.</p>
+            <p>
+                Trauma can be classified into three main types:
+            </p>
+            <ul>
+                <li><strong>Acute Trauma:</strong> A single traumatic event that impacts a person.</li>
+                <li><strong>Chronic Trauma:</strong> Repeated and prolonged exposure to traumatic events.</li>
+                <li><strong>Complex Trauma:</strong> Multiple, often interpersonal traumatic events.</li>
+            </ul>
+            <img src="https://www.worksheetsplanet.com/wp-content/uploads/2024/02/What-is-trauma.jpg" alt="What is Trauma">
+            <button onclick="showMoreInfo('extra-info-trauma')">Learn More</button>
+            <p id="extra-info-trauma" style="display:none;">
+                Trauma can alter brain development, disrupt learning processes, and challenge social relationships. Recognizing these impacts is the first step to providing effective support.
+            </p>
+        </section>
+
+        <section id="effects">
+            <h2>Effects on Education</h2>
+            <div class="grid">
+                <div>
+                    <p>Trauma affects students in numerous ways:</p>
+                    <ul>
+                        <li><strong>Cognitive:</strong> Reduced attention span and memory issues.</li>
+                        <li><strong>Emotional:</strong> Anxiety, depression, and low self-esteem.</li>
+                        <li><strong>Behavioral:</strong> Increased absenteeism, aggression, or social withdrawal.</li>
+                    </ul>
+                    <p>Addressing these challenges early can significantly improve academic outcomes.</p>
+                </div>
+                <div>
+                    <img src="https://cdn.ielts.net/wp-content/uploads/2024/08/education-access-gap-66aa96.jpg" alt="Effects of Trauma on Students">
+                </div>
+            </div>
+        </section>
+
+        <section id="support">
+            <h2>Support Strategies</h2>
+            <p>How can schools help students who have experienced trauma?</p>
+            <ul>
+                <li><strong>Trauma-Informed Practices:</strong> Create a safe and supportive learning environment.</li>
+                <li><strong>Mental Health Resources:</strong> Ensure access to counseling and therapy.</li>
+                <li><strong>Training Educators:</strong> Equip teachers with tools to recognize and respond to trauma.</li>
+            </ul>
+            <img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5LX6J5BNSYI6VP76AIGIRM7REA.jpg" alt="Support Strategies">
+        </section>
+
+        <section id="quiz">
+    <h2>Interactive Quiz</h2>
+    <p>Test your knowledge about trauma and education.</p>
+
+    <div class="quiz-question">
+        <p><strong>1. What percentage of students drop out due to trauma-related challenges?</strong></p>
+        <button onclick="checkAnswer('q1', 'C')">A. 15%</button>
+        <button onclick="checkAnswer('q1', 'C')">B. 25%</button>
+        <button onclick="checkAnswer('q1', 'C')">C. 35%</button>
+        <button onclick="checkAnswer('q1', 'C')">D. 50%</button>
+        <p id="q1-feedback" style="display:none;"></p>
+    </div>
+
+    <div class="quiz-question">
+        <p><strong>2. What is one common effect of trauma on education?</strong></p>
+        <button onclick="checkAnswer('q2', 'B')">A. Improved memory</button>
+        <button onclick="checkAnswer('q2', 'B')">B. Reduced attention span</button>
+        <button onclick="checkAnswer('q2', 'B')">C. Enhanced creativity</button>
+        <button onclick="checkAnswer('q2', 'B')">D. Higher grades</button>
+        <p id="q2-feedback" style="display:none;"></p>
+    </div>
+
+    <div class="quiz-question">
+        <p><strong>3. Which of the following is a trauma-informed practice?</strong></p>
+        <button onclick="checkAnswer('q3', 'A')">A. Creating a safe learning environment</button>
+        <button onclick="checkAnswer('q3', 'A')">B. Ignoring signs of trauma</button>
+        <button onclick="checkAnswer('q3', 'A')">C. Limiting mental health resources</button>
+        <button onclick="checkAnswer('q3', 'A')">D. Discouraging student expression</button>
+        <p id="q3-feedback" style="display:none;"></p>
+    </div>
+
+    <p><strong>Score:</strong> <span id="score">0</span>/3</p>
+</section>
+
+<script>
+    let score = 0;
+
+    function checkAnswer(questionId, correctAnswer) {
+        const feedbackElement = document.getElementById(${questionId}-feedback);
+        const userChoice = event.target.innerText[0]; // Get the selected option (A, B, C, D)
+        if (userChoice === correctAnswer) {
+            feedbackElement.innerText = "Correct! Well done.";
+            feedbackElement.style.color = "green";
+            score++;
+        } else {
+            feedbackElement.innerText = Incorrect. The correct answer is ${correctAnswer}.;
+            feedbackElement.style.color = "red";
+        }
+        feedbackElement.style.display = "block";
+        event.target.disabled = true; // Disable the clicked button
+        document.getElementById('score').innerText = ${score}/3;
+    }
+</script>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Understanding Trauma and Education | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
